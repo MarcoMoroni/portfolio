@@ -1,0 +1,28 @@
+.portfolio-gallery-container {
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 140px;
+
+  /*flexbox*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+
+}
+
+.portfolio-gallery-item {
+  width: 450px;
+  height: 450px;
+  margin: 30px;
+  background: red;
+}
+
+/*to do*/
+@media screen and (max-width: 1219px) {
+    body {
+        background-color: lightgreen;
+    }
+}
