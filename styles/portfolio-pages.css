@@ -4,6 +4,7 @@ h3, p {
 
 p {
   font-size: 85%;
+  margin-bottom: 12px;
 }
 
 img {
@@ -43,7 +44,7 @@ figcaption {
 }
 
 .top-image-background#geom {
-  background-image: url("../img/geom/Capture03_bw.png");
+  background-image: url("../img/geom/screen03_bw.png");
   background-size: cover;
 }
 
