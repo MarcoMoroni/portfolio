@@ -17,18 +17,23 @@
   width: 450px;
   height: 450px;
   margin: 30px;
-  background: red;
-  background-size: cover;
   background-position: center;
   position: relative; /* for centering description*/
 }
 
 #geom {
   background-image: url("../img/geom/animated_bw.gif");
+  background-size: cover;
 }
 
 #pearl {
   background-image: url("../img/pearl/Shells2_bw.png");
+  background-size: cover;
+}
+
+#website {
+  background-image: url("../img/row.png");
+  background-repeat: repeat;
 }
 
 .portfolio-gallery-item .overlay {
