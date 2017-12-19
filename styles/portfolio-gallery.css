@@ -18,6 +18,28 @@
   height: 450px;
   margin: 30px;
   background: red;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#geom {
+  background-image: url("../img/geom/animated_bw.gif");
+}
+
+#pearl {
+  background-image: url("../img/pearl/Shells2_bw.png");
+}
+
+.portfolio-gallery-item .overlay {
+  position: absolute;
+  background-color: rgba(21, 22, 23, 0.85);
+  height: inherit;
+  width: inherit;
+  transition: all 0.5s ease;
+}
+
+.portfolio-gallery-item .overlay:hover {
+  background-color: rgba(200, 237, 168, 0.85);
 }
 
 /*to do*/
