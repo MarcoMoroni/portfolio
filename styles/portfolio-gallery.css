@@ -53,11 +53,12 @@
 }
 
 .portfolio-gallery-item .portfolio-item-description p,
-.portfolio-gallery-item .portfolio-item-learnmore p {
+.portfolio-gallery-item .portfolio-item-learnmore a {
   color: #151617;
 }
 
-.portfolio-gallery-item .portfolio-item-learnmore p {
+.portfolio-gallery-item .portfolio-item-learnmore a {
+  padding: 30px;
   font-size: 250%;
 }
 
