@@ -48,6 +48,11 @@ figcaption {
   background-size: cover;
 }
 
+.top-image-background#pearl {
+  background-image: url("../img/pearl/screen02_bw.png");
+  background-size: cover;
+}
+
 .top-image-background-overlay {
   position: absolute;
   height: 100%;
