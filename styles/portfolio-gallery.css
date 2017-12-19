@@ -48,6 +48,10 @@
   background-color: rgba(200, 237, 168, 0.85);
 }
 
+.portfolio-gallery-item#website:hover .overlay {
+  background-color: rgba(200, 237, 168, 1);
+}
+
 .portfolio-gallery-item .portfolio-item-description p,
 .portfolio-gallery-item .portfolio-item-learnmore p {
   color: #151617;
