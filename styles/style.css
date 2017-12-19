@@ -27,7 +27,7 @@ body {
   height: 230px;
 }
 
-h1, p {
+h1, h3, p {
   text-align: center;
 }
 
@@ -36,6 +36,11 @@ h1 {
   font-size: 200%;
   color: white;
   margin-bottom: 80px;
+}
+
+h3 {
+  font-weight: 900;
+  color: white;
 }
 
 p {
