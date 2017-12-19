@@ -55,7 +55,24 @@ figcaption {
   z-index: -9;
 }
 
-.nav a {
-  font-size: 85%;
+.nav {
   text-align: center;
+}
+
+.nav a {
+  padding: 5px 10px 5px 10px;
+  font-size: 85%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav a:hover {
+  border-bottom: 1px solid transparent; /*don't underline*/
+  background-color: rgba(200, 237, 168, 1);
+  color: #151617;
+}
+
+.nav a.next::after {
+  content: " »";
+  font-size: 120%;
 }
