@@ -13,8 +13,10 @@ body {
 }
 
 .container {
-  width: 800px;
+  max-width: 840px;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .top-spacer {
