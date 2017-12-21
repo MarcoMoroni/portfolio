@@ -32,7 +32,7 @@
 }
 
 #website {
-  background-image: url("../img/row.png");
+  background-image: url("../img/dot.png");
   background-repeat: repeat;
 }
 
@@ -46,10 +46,6 @@
 
 .portfolio-gallery-item:hover .overlay {
   background-color: rgba(255, 255, 255, 0.8);
-}
-
-.portfolio-gallery-item#website:hover .overlay {
-  background-color: rgba(200, 237, 168, 1);
 }
 
 .portfolio-gallery-item .portfolio-item-description p,
