@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #151617;
+  background-color: white;
 }
 
 .container {
@@ -34,17 +34,17 @@ h1, h3, p {
 h1 {
   font-weight: 900;
   font-size: 200%;
-  color: white;
+  color: black;
   margin-bottom: 80px;
 }
 
 h3 {
   font-weight: 900;
-  color: white;
+  color: black;
 }
 
 p {
-  color: #7F7F7F;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -53,7 +53,7 @@ p:last-child {
 }
 
 a {
-  color: #8CA578;
+  color: #87B65F;
 
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
@@ -61,6 +61,6 @@ a {
 }
 
 a:hover {
-  color: #C8EDA8;
-  border-color: #C8EDA8;
+  color: #A3DB72;
+  border-color: #A3DB72;
 }

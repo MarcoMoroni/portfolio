@@ -17,7 +17,7 @@
 .glitch::before {
   font-weight: 900;
   font-size: 200%;
-  color: white;
+  color: black;
   margin-bottom: 80px;
 
   /* variation */
@@ -25,7 +25,7 @@
   text-shadow: -1px 0 #C8EDA8;
 
   /* important: opaque background masks the original */
-  background: #151617;
+  background: white;
 
   clip: rect(3px, 800px, 6px, 0);
   /*
@@ -38,7 +38,7 @@
 .glitch::after {
   font-weight: 900;
   font-size: 200%;
-  color: white;
+  color: black;
   margin-bottom: 80px;
 
   /* variation */
@@ -46,7 +46,7 @@
   text-shadow: -1px 0 #C8EDA8;
 
   /* important: opaque background masks the original */
-  background: #151617;
+  background: white;
 
   clip: rect(10px, 800px, 12px, 0);
 

@@ -22,12 +22,12 @@
 }
 
 #geom {
-  background-image: url("../img/geom/animated_bw.gif");
+  background-image: url("../img/geom/animated.gif");
   background-size: cover;
 }
 
 #pearl {
-  background-image: url("../img/pearl/screen02_bw.png");
+  background-image: url("../img/pearl/screen02.png");
   background-size: cover;
 }
 
@@ -38,14 +38,14 @@
 
 .portfolio-gallery-item .overlay {
   position: absolute;
-  background-color: rgba(21, 22, 23, 0.85);
+  background-color: rgba(255, 255, 255, 0);
   height: inherit;
   width: 100%;
   transition: all 0.3s ease;
 }
 
 .portfolio-gallery-item:hover .overlay {
-  background-color: rgba(200, 237, 168, 0.85);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .portfolio-gallery-item#website:hover .overlay {
@@ -54,7 +54,7 @@
 
 .portfolio-gallery-item .portfolio-item-description p,
 .portfolio-gallery-item .portfolio-item-learnmore a {
-  color: #151617;
+  color: black;
 }
 
 .portfolio-gallery-item .portfolio-item-learnmore a {
