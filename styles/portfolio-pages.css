@@ -25,10 +25,6 @@ figcaption {
   margin-bottom: 60px;
 }
 
-.divider.big {
-  margin-bottom: 150px;
-}
-
 .no-bottom-margin {
   margin-bottom: 0;
 }
@@ -62,6 +58,7 @@ figcaption {
 }
 
 .nav {
+  margin-top: 150px;
   text-align: center;
 }
 
