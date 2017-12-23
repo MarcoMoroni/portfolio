@@ -62,6 +62,11 @@
   font-size: 250%;
 }
 
+/*remove underline from read more button*/
+.portfolio-gallery-item .portfolio-item-learnmore a:hover {
+  border-bottom: 1px solid transparent;
+}
+
 .portfolio-gallery-item .portfolio-item-description,
 .portfolio-gallery-item .portfolio-item-learnmore {
   opacity: 0;
