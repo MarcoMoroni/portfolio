@@ -26,6 +26,11 @@
   background-size: cover;
 }
 
+#pba {
+  background-image: url("../img/pba/placeholder_bw.png");
+  background-size: cover;
+}
+
 #pearl {
   background-image: url("../img/pearl/screen02_bw.png");
   background-size: cover;
