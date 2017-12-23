@@ -80,3 +80,30 @@ figcaption {
   content: " »";
   font-size: 120%;
 }
+
+/* MINIATURES **************/
+
+.portfolio-miniatures-container {
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.portfolio-miniatures-container a {
+  display: inline-block;
+  height: 5px;
+  width: 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.portfolio-miniatures-container a.current {
+  background-color: #C8EDA8;
+}
+
+.portfolio-miniatures-container a:hover {
+  border-bottom: 1px solid transparent; /*don't underline*/
+}
+
+/***************************/
