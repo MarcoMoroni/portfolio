@@ -1,7 +1,7 @@
 .portfolio-gallery-container {
 
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-top: 140px;
 
   /*flexbox*/
@@ -38,22 +38,30 @@
 
 .portfolio-gallery-item .overlay {
   position: absolute;
-  background-color: rgba(21, 22, 23, 0.85);
+  background-color: rgba(21, 22, 23, 0.9);
   height: inherit;
   width: 100%;
   transition: all 0.3s ease;
 }
 
 .portfolio-gallery-item:hover .overlay {
-  background-color: rgba(200, 237, 168, 0.85);
+  background-color: rgba(200, 237, 168, 0.9);
 }
 
 .portfolio-gallery-item#website:hover .overlay {
   background-color: rgba(200, 237, 168, 1);
 }
 
-.portfolio-gallery-item .portfolio-item-description p,
+.portfolio-gallery-item .portfolio-item-description p {
+  color: white;
+}
+
 .portfolio-gallery-item .portfolio-item-learnmore a {
+  color: #151617;
+}
+
+.portfolio-gallery-item:hover .portfolio-item-description p,
+.portfolio-gallery-item:hover .portfolio-item-learnmore a {
   color: #151617;
 }
 
@@ -67,7 +75,11 @@
   border-bottom: 1px solid transparent;
 }
 
-.portfolio-gallery-item .portfolio-item-description,
+.portfolio-gallery-item .portfolio-item-description {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
 .portfolio-gallery-item .portfolio-item-learnmore {
   opacity: 0;
   transition: all 0.3s ease;
