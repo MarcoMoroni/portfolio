@@ -30,6 +30,18 @@ figcaption {
   margin-bottom: 0;
 }
 
+.abstract {
+  margin: auto;
+  width: 360px;
+  margin-bottom: 100px;
+}
+
+.abstract p {
+  text-align: center;
+  font-size: 100%;
+  color: white;
+}
+
 /* BACKGROUND IMAGE ********/
 
 .top-image-background {
