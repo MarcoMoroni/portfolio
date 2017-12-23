@@ -32,8 +32,8 @@ figcaption {
 
 .abstract {
   margin: auto;
-  width: 360px;
-  margin-bottom: 100px;
+  max-width: 360px;
+  margin-bottom: 130px;
 }
 
 .abstract p {
