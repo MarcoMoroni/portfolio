@@ -30,6 +30,8 @@ figcaption {
   margin-bottom: 0;
 }
 
+/* BACKGROUND IMAGE ********/
+
 .top-image-background {
   position: absolute;
   z-index: -10;
@@ -58,6 +60,10 @@ figcaption {
   z-index: -9;
 }
 
+/***************************/
+
+/* BOTTOM NAVIGATION *******/
+
 .nav {
   margin-top: 150px;
   text-align: center;
@@ -80,6 +86,8 @@ figcaption {
   content: " »";
   font-size: 120%;
 }
+
+/***************************/
 
 /* MINIATURES **************/
 
