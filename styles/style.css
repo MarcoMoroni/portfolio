@@ -69,3 +69,15 @@ a:hover {
   color: #C8EDA8;
   border-color: #C8EDA8;
 }
+
+@media screen and (max-width: 500px) {
+
+  .top-spacer {
+    height: 140px;
+  }
+
+  .bottom-spacer {
+    height: 140px;
+  }
+
+}

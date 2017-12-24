@@ -118,12 +118,19 @@
   padding: 40px;
 }
 
-/*to do*/
 @media screen and (max-width: 1000px) {
 
   .portfolio-gallery-container {
     margin-left: 0;
     margin-right: 0;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .portfolio-gallery-container {
+    margin-top: 100px;
   }
 
 }
