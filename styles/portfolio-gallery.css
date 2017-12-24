@@ -60,6 +60,7 @@
 .portfolio-gallery-item .portfolio-item-description p {
   color: white;
   font-family: 'Cutive Mono', monospace;
+  transition: all 0.3s ease;
 }
 
 .portfolio-gallery-item .portfolio-item-learnmore a {
