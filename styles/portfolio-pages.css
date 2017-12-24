@@ -10,6 +10,8 @@ h3 {
 
 img {
   width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 figure {
@@ -17,9 +19,11 @@ figure {
 }
 
 figcaption {
-  font-size: 85%;
+  font-size: 70%;
+  text-transform: uppercase;
   text-align: right;
   color: #7F7F7F;
+  margin-top: 10px;
 }
 
 .divider {
