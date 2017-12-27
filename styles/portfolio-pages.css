@@ -9,13 +9,14 @@ h3 {
 }
 
 img {
+  margin: auto;
   width: 100%;
-  margin-left: 50%;
-  transform: translateX(-50%);
 }
 
 figure {
   margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
 }
 
 figcaption {
