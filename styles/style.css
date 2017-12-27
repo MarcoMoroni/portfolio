@@ -93,11 +93,16 @@ ul {
 }
 
 .header-github-profile-picture a {
-  border-color: transparent;
+  border: 1px solid transparent;
 }
 
-.header-github-profile-picture a:hover {
-  border-color: #C8EDA8;
+.header-github-profile-picture a img {
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.header-github-profile-picture a:hover img {
+  border: 1px solid #C8EDA8;
 }
 
 /***************************/
