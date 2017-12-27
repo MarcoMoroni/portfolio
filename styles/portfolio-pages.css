@@ -1,6 +1,9 @@
-h3, p {
+h3, p, li {
   text-align: left;
   font-size: 85%;
+}
+
+h3, p {
   margin-bottom: 12px;
 }
 
