@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(253, 250, 247);
 }
 
 .container {
@@ -34,13 +34,13 @@ h1, h3, p {
 h1 {
   font-weight: 900;
   font-size: 200%;
-  color: black;
+  color: #333333;
   margin-bottom: 80px;
 }
 
 h3 {
   font-weight: 900;
-  color: black;
+  color: #333333;
   margin-bottom: 30px;
 }
 
@@ -49,7 +49,7 @@ h3 i {
 }
 
 p {
-  color: black;
+  color: #8F8F8F;
   margin-bottom: 20px;
 }
 
@@ -58,7 +58,7 @@ p:last-child {
 }
 
 a {
-  color: #87B65F;
+  color: rgb(255, 106, 80);
 
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
@@ -66,8 +66,8 @@ a {
 }
 
 a:hover {
-  color: #A3DB72;
-  border-color: #A3DB72;
+  color: rgb(255, 106, 80);
+  border-color: rgb(255, 106, 80);
 }
 
 @media screen and (max-width: 500px) {

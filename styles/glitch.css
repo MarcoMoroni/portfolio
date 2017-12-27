@@ -25,7 +25,7 @@
   text-shadow: -1px 0 #C8EDA8;
 
   /* important: opaque background masks the original */
-  background: white;
+  background: rgb(253, 250, 247);
 
   clip: rect(3px, 800px, 6px, 0);
   /*
@@ -46,7 +46,7 @@
   text-shadow: -1px 0 #C8EDA8;
 
   /* important: opaque background masks the original */
-  background: white;
+  background: rgb(253, 250, 247);
 
   clip: rect(10px, 800px, 12px, 0);
 

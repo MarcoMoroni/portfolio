@@ -22,7 +22,7 @@ figcaption {
   font-size: 70%;
   text-transform: uppercase;
   text-align: right;
-  color: #7F7F7F;
+  color: #8F8F8F;
   margin-top: 10px;
 }
 
@@ -43,7 +43,7 @@ figcaption {
 .abstract p {
   text-align: center;
   font-size: 100%;
-  color: white;
+  color: #333333;
   font-family: 'Cutive Mono', monospace;
 }
 
@@ -86,7 +86,7 @@ figcaption {
   position: absolute;
   height: 101%;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(253, 250, 247, 0.8) 0%, rgba(253, 250, 247, 1) 100%);
   z-index: -9;
 }
 
@@ -108,8 +108,8 @@ figcaption {
 
 .nav a:hover {
   border-bottom: 1px solid transparent; /*don't underline*/
-  background-color: #A3DB72;
-  color: black;
+  background-color: rgb(255, 106, 80);
+  color: rgb(253, 250, 247);
 }
 
 .nav a.next::after {
@@ -131,13 +131,13 @@ figcaption {
   display: inline-block;
   height: 5px;
   width: 10px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(143, 143, 143, 0.25);
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .portfolio-miniatures-container a.current {
-  background-color: #C8EDA8;
+  background-color: rgb(255, 106, 80);
 }
 
 .portfolio-miniatures-container a:hover {
