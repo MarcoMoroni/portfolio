@@ -48,8 +48,11 @@ h3 i {
   font-weight: 900;
 }
 
-p {
+p, li{
   color: #737373;
+}
+
+p, ul{
   margin-bottom: 20px;
 }
 
@@ -68,6 +71,10 @@ a {
 a:hover {
   color: rgb(255, 106, 80);
   border-color: rgb(255, 106, 80);
+}
+
+ul {
+  padding-left: 40px;
 }
 
 @media screen and (max-width: 500px) {
