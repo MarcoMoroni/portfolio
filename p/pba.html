@@ -28,7 +28,7 @@
   <div class="container">
     <div class="abstract">
       <p>
-        A set of physics-based animations with particles and rigid bodies.
+        Some of physics-based animations with particles and rigid bodies.
       </p>
     </div>
     <div class="divider"></div>
@@ -37,11 +37,8 @@
     </p>
     <div class="divider"></div>
     <h3>Flag</h3>
-    <p>
-      The project started by implementing forces such as gravity towards the ground and aerodynamic drag followed by collison with an horizontal plane. The particles here are connected by a new set of forces—a system of springs—which orthogonally connect them to create a cloth.
-    </p>
-    <p>
-      Another force to simulate an isotropic wind has been applied, but this time it affects all the triangles of the triangulated cloth.
+    <p  class="no-bottom-margin">
+      These particles are connected by a system of springs and I applied an isotropic wind to the the triangulated cloth (not to the single partciles).
     </p>
     <div class="divider"></div>
     <figure class="no-bottom-margin">
@@ -49,11 +46,8 @@
     </figure>
     <div class="divider"></div>
     <h3>Point gravity</h3>
-    <p>
-      All the simulations use a simple gravity the pushes bodies vertically to the ground, so I decided to experimented with different types of gravity. I made this and the 2 following simulations.
-    </p>
     <p class="no-bottom-margin">
-      Here you can see a group of particles that are affected by two point of gravity. The gravity is stronger the close to this points and null after a certain distance.
+      Here you can see a group of particles that are affected by two points of gravity. The gravity is stronger the closer to these points and null after a certain set distance.
     </p>
     <div class="divider"></div>
     <figure class="no-bottom-margin">
@@ -62,7 +56,7 @@
     <div class="divider"></div>
     <h3>Newton's gravity between any two bodies</h3>
     <p class="no-bottom-margin">
-      While the previous simulation does not use any physically correct formula, this uses Newton's law of gravity, therfore now every particle with mass is affected by every other one's mass. To be able to see such interactions I decided to make them stick together once they get really close and to enclose them inside a box.
+      While the previous simulation does not use any physically correct gravitational formula, this one uses Newton's law of gravity: every two particles with mass are affected by each other. To be able to see such interactions I decided to make them stick together once they get really close and to enclose everything inside a box.
     </p>
     <div class="divider"></div>
     <figure class="no-bottom-margin">
@@ -71,20 +65,19 @@
     <div class="divider"></div>
     <h3><i>Super Mario Galaxy</i>'s gravity</h3>
     <p>
-      In <i>Super Mario Galaxy</i> the player is able to walk in planetoids of any shape and size. This is possible because bodies are affected by the gravity of only one planetoid and the gravity direction is the inverse of the normal of (usually) the closest suface.
+      In <i>Super Mario Galaxy</i> the player is able to walk in planetoids of any shape and size. This is possible because bodies are affected by the gravity of only one planetoid at once and the gravity direction is the inverse of the normal of (usually) the closest suface.
     </p>
     <p class="no-bottom-margin">
-      I've managed to apply this to particles in a planetoid with the shape of a box. The gravity direction is the normalised vector from the particle to a point <i>U</i>, where <i>U</i> is the point on (or in) the planetoid closest to the particle.
+      I've managed to apply this principle to particles in a planetoid with the shape of a box. The gravity direction is the normalised vector from the particle to a point <i>U</i>, where <i>U</i> is the point on (or in) the planetoid closest to the particle.
     </p>
     <div class="divider"></div>
     <figure class="no-bottom-margin">
       <img src="../img/pba/placeholder.png">
     </figure>
     <div class="divider"></div>
-    <h3>OBB</h3>
+    <h3>RigidBody (OBB)</h3>
     <p class="no-bottom-margin">
-      This is a rigidbody colliding with a plane. It's an OBB, which means it has the shape of a box and it has a rotation.
-      In order to make the rigidbody's collision work I had to implement forces as impulses. This simulation also includes impulses for friction (which makes the box moving on the <i>x</i> and <i>z</i> axis when bouncing).
+      This is a rigidbody with the shape of a box (OBB) colliding with a plane. In order to make the rigidbody's collision work I had to implement forces as impulses.
     </p>
     <div class="divider"></div>
     <figure class="no-bottom-margin">
@@ -93,7 +86,7 @@
     <div class="divider"></div>
     <h3>Collisions between OBBs</h3>
     <p class="no-bottom-margin">
-      This last simulation has two OBB colliding with each other. The final result looks realistic but I had to hardcode the value of the translation needed for the OBBs to move apart when overlapping.
+      This last simulation has two OBBs colliding with each other.
     </p>
     <div class="divider"></div>
     <figure class="no-bottom-margin">
