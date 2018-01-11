@@ -105,8 +105,8 @@ ul {
 
 .nav a:hover {
   border-bottom: 1px solid transparent; /*don't underline*/
-  background-color: rgba(200, 237, 168, 1);
-  color: #151617;
+  background-color: rgb(255, 106, 80);
+  color: rgb(253, 250, 247);
 }
 
 .nav a.next::after {
