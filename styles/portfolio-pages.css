@@ -40,8 +40,9 @@ figcaption {
 
 .abstract {
   margin: auto;
-  max-width: 360px;
+  max-width: 380px;
   margin-bottom: 170px;
+  font-size: 110%;
 }
 
 .abstract p {
