@@ -13,6 +13,17 @@
 
 }
 
+/* Max 3 cards per row */
+@media screen and (min-width: 1920px) {
+
+  .portfolio-gallery-container {
+	max-width: 1920px;
+    margin-left: auto;
+	margin-right: auto;
+  }
+
+}
+
 .portfolio-gallery-item {
   width: 550px;
   height: 450px;
