@@ -96,11 +96,19 @@ ul {
   text-align: center;
 }
 
+.nav .start {
+	background-color: rgba(255, 106, 80, 0.9);
+}
+
 .nav a {
-  padding: 5px 10px 5px 10px;
+  padding: 10px 20px 10px 20px;
   font-size: 85%;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.nav a.start {
+  color: rgb(253, 250, 247);
 }
 
 .nav a:hover {
