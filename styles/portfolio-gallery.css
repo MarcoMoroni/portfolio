@@ -72,6 +72,8 @@
   color: #333333;
   font-family: 'Cutive Mono', monospace;
   transition: all 0.3s ease;
+  text-align: left;
+  font-size: 110%;
 }
 
 .portfolio-gallery-item .portfolio-item-learnmore a {
@@ -111,7 +113,7 @@
 .portfolio-gallery-item .portfolio-item-description {
 
   width: calc(100% - 80px);
-  max-width: 360px;
+  max-width: 380px;
 
   /*centering*/
   position: absolute;
