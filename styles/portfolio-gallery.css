@@ -32,6 +32,11 @@
   position: relative; /* for centering description*/
 }
 
+#azucena {
+  background-image: url("../img/azucena/capture_03.png");
+  background-size: cover;
+}
+
 #geom {
   background-image: url("../img/geom/animated.gif");
   background-size: cover;
