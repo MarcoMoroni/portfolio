@@ -6,11 +6,11 @@ assets_folder: "/assets/mv"
 preview_img: "/assets/mv/animated.gif"
 ---
 
-![]({{ page.assets_folder }}/animated.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/animated.gif)
 
 This is a coursework I've made for a Computer Graphics module. I used OpenGL to recreate a scene that looked like a level from the game *[Monument Valley](https://www.monumentvalleygame.com/)*:
 
-![A level from the game]({{ page.assets_folder }}/mv_screen.jpg)
+![A level from the game]({{ site.baseurl }}{{ page.assets_folder }}/mv_screen.jpg)
 
 You've probably noticed the impossible geometries: I made them by using a camera with an orthographical projection, therfore you can't perceive depth.
 
@@ -26,12 +26,12 @@ You can take a look at it on my [GitHub](https://github.com/MarcoMoroni/CG_cw2) 
 
 You should play that game btw, it's gorgeous.
 
-![]({{ page.assets_folder }}/screen04.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/screen04.png)
 
-![]({{ page.assets_folder }}/screen06.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/screen06.png)
 
-![]({{ page.assets_folder }}/screen05.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/screen05.png)
 
-![]({{ page.assets_folder }}/screen02.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/screen02.png)
 
-![]({{ page.assets_folder }}/screen07.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/screen07.png)

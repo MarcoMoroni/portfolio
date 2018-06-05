@@ -12,13 +12,13 @@ This is a set of physics-based animations I made at university using C++. [Here'
 
 These particles are connected by a system of springs and I applied an isotropic wind to the the triangulated cloth (not to the single particles).
 
-![]({{ page.assets_folder }}/flag.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/flag.gif)
 
 ### Point gravity
 
 Here you can see a group of particles that are affected by two points of gravity. The gravity is stronger the closer to these points and null after a certain set distance.
 
-![]({{ page.assets_folder }}/point.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/point.gif)
 
 ### Newton's gravity between any two bodies
 
@@ -26,7 +26,7 @@ While the previous simulation does not use any physically correct gravitational 
 
 The lighter particle has a higher mass.
 
-![]({{ page.assets_folder }}/newton.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/newton.gif)
 
 ### *Super Mario Galaxy*'s gravity
 
@@ -34,16 +34,16 @@ In *Super Mario Galaxy* the player is able to walk in planetoids of any shape an
 
 I've managed to apply this principle to particles in a planetoid with the shape of a box. The gravity direction is the normalised vector from the particle to a point *U*, where *U* is the point on (or in) the planetoid closest to the particle.
 
-![]({{ page.assets_folder }}/smg.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/smg.gif)
 
 ### RigidBody (OBB)
 
 This is a rigidbody with the shape of a box (OBB) colliding with a plane. In order to make the rigidbody's collision work I had to implement forces as impulses.
 
-![]({{ page.assets_folder }}/cube.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/cube.gif)
 
 ### Collisions between OBBs
 
 This last simulation has two OBBs colliding with each other.
 
-![]({{ page.assets_folder }}/domino.gif)
+![]({{ site.baseurl }}{{ page.assets_folder }}/domino.gif)

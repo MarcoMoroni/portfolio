@@ -6,7 +6,7 @@ assets_folder: "/assets/pearl"
 preview_img: "/assets/pearl/screen02.png"
 ---
 
-![]({{ page.assets_folder }}/title01.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/title01.png)
 
 The theme for the [Global Game Jam 2017](https://globalgamejam.org/) was *waves* and because it was my first Game Jam, I decided to keep it simple. I participated with a friend and we had a lot of fun!
 
@@ -18,6 +18,6 @@ After the 48 hours we ended up with the two working levels that you can see belo
 
 You can download this tiny game from my [GitHub](https://github.com/MarcoMoroni/ShellPuzzle).
 
-![]({{ page.assets_folder }}/screen01.png)
+![]({{ site.baseurl }}{{ page.assets_folder }}/screen01.png)
 
-![]({{ page.assets_folder }}/screen01.png)
+![]({{ site.baseurl }}/{{ page.assets_folder }}/screen01.png)

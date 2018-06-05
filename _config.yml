@@ -16,7 +16,7 @@
 title: "Marco Moroni"
 email: marcomoroni394@gmail.com
 description: "Hello human, here's my portfolio."
-baseurl: "portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: marcomoroni
 itchio_username: marcomoroni
