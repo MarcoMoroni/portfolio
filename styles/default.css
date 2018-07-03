@@ -50,8 +50,8 @@ h1, h2, h3, p, li {
 
 h1 {
   text-align: center;
-  font-weight: 900;
-  font-size: 200%;
+  /* font-weight: 900; */
+  font-size: 260%;
   color: #333333;
 }
 
@@ -335,7 +335,7 @@ p:last-child {
 /*****************************************/
 
 
-/* no top or bottom margins for the first and last image */
+/* no top or bottom margins for the first and last image, p, h3 */
 .container.post > p:first-child,
 .container.post > h3:first-child,
 .container.post > p:first-child > img:first-child {
