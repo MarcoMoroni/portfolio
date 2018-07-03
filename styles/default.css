@@ -8,6 +8,10 @@
   line-height: 180%
 }
 
+::selection{
+  background: rgba(255, 106, 80, 0.2);
+}
+
 .container {
   max-width: 46em;
   margin: auto;
@@ -88,7 +92,7 @@ a:hover {
 a {
   color: #4c4c4c;
   border-bottom: 1px solid #4c4c4c;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 a:hover {
@@ -173,6 +177,7 @@ p:last-child {
   /*flexbox*/
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
@@ -180,6 +185,7 @@ p:last-child {
   background-color: #333333;
   padding: 0.2em 0.45em 0.2em 0.6em;
   margin-right: 0.3em;
+  margin-bottom: 0.3em;
   transition: all 0.2s ease;
 }
 
