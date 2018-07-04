@@ -15,8 +15,8 @@
 .container {
   max-width: 46em;
   margin: auto;
-  padding-left: 0.1em;
-  padding-right: 0.1em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container > p > img {
@@ -39,7 +39,6 @@
 /* see bottom */
 
 body {
-  background-color: rgb(253, 250, 247);
   background-color: rgb(253, 250, 247);
 }
 
@@ -182,7 +181,7 @@ p:last-child {
 }
 
 .tag {
-  background-color: #333333;
+  background-color: #4c4c4c;
   padding: 0.2em 0.45em 0.2em 0.6em;
   margin-right: 0.3em;
   margin-bottom: 0.3em;
@@ -289,6 +288,14 @@ p:last-child {
   transition: all 0s;
 }*/
 
+/* Add fake posts with same widths as real ones to align the last row of the fleaxbox to the left */
+.fake_post {
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  width: 37em;
+  height: 0;
+}
+
 /*****************************************/
 
 
@@ -326,7 +333,8 @@ p:last-child {
 }
 
 .nav_dots div {
-  background-color: rgba(143, 143, 143, 0.25);
+  background-color: #4c4c4c;
+  opacity: 0.18;
   width: 0.4em;
   height: 0.4em;
   margin-left: 0.8em;
@@ -334,10 +342,11 @@ p:last-child {
 }
 
 .nav_dots .current {
-  background-color: #333333;
+  opacity: 1;
 }
 
 /*****************************************/
+
 
 
 /* no top or bottom margins for the first and last image, p, h3 */
