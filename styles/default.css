@@ -269,11 +269,12 @@ p:last-child {
 }
 
 .blog_list_post:hover .overlay {
-  background-color: rgb(255, 106, 80);
+  /* background-color: rgb(255, 106, 80); */
+  opacity: 0.94;
   transition: all 0s;
 }
 
-.blog_list_post:hover p {
+/*.blog_list_post:hover p {
   color: rgb(253, 250, 247);
   transition: all 0s;
 }
@@ -286,7 +287,7 @@ p:last-child {
 .blog_list_post:hover .tag p {
   color: rgb(255, 106, 80);
   transition: all 0s;
-}
+}*/
 
 /*****************************************/
 
