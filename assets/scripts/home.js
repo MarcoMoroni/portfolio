@@ -3,11 +3,11 @@
 var i = 0;
 var mySpan = document.getElementById("marco");
 var txt = ", I'm Marco :)";
-var speed = 150;
+var speed = 170;
 var delete_speed = 100;
 
-var time_before_comma = 1000;
-var time_after_comma = 150;
+var time_before_comma = 1100;
+var time_after_comma = 170;
 var time_after_smile = 1700;
 
 function typewriteMarco()
@@ -43,7 +43,7 @@ function deleteSmile()
   if (i == 16)
   {
     mySpan.innerHTML = ", I'm Marco";
-    setTimeout(deleteSmile, speed);
+    setTimeout(deleteSmile, 600);
   }
   if (i == 17)
   {

@@ -119,6 +119,10 @@ p:last-child {
   height: 14.4em;
 }
 
+.space_between_abstract_and_content {
+  height: 10.6em;
+}
+
 /*****************************************/
 
 
@@ -243,6 +247,10 @@ p:last-child {
 /* for correct z index */
 .blog_list_post div {
   position: relative;
+}
+
+.blog_list_post .blog_list_post_top_padding {
+  height: 6em;
 }
 
 .blog_list_post .overlay {
