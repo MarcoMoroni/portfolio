@@ -2,29 +2,54 @@
 
 var i = 0;
 var mySpan = document.getElementById("marco");
-var txt = ", I'm Marco.";
-var speed = 110;
+var txt = ", I'm Marco :)";
+var speed = 150;
+var delete_speed = 100;
 
 var time_before_comma = 1000;
-var time_after_comma = 120;
-var time_before_dot = 1800;
+var time_after_comma = 150;
+var time_after_smile = 1700;
 
-function functionTypewriteMarco()
+function typewriteMarco()
 {
   if (i < txt.length)
   {
     mySpan.innerHTML += txt.charAt(i);
     i++;
     if (i - 1 == 0) {
-      setTimeout(functionTypewriteMarco, time_after_comma);
+      setTimeout(typewriteMarco, time_after_comma);
     }
-    else if (i - 1 == 10) {
-      setTimeout(functionTypewriteMarco, time_before_dot);
+    else if (i - 1 == 13) {
+      setTimeout(deleteSmile, time_after_smile);
     }
     else {
-      setTimeout(functionTypewriteMarco, speed);
+      setTimeout(typewriteMarco, speed);
     }
   }
 }
 
-setTimeout(functionTypewriteMarco, time_before_comma);
+function deleteSmile()
+{
+  if (i == 14)
+  {
+    mySpan.innerHTML = ", I'm Marco :";
+    setTimeout(deleteSmile, delete_speed);
+  }
+  if (i == 15)
+  {
+    mySpan.innerHTML = ", I'm Marco ";
+    setTimeout(deleteSmile, delete_speed);
+  }
+  if (i == 16)
+  {
+    mySpan.innerHTML = ", I'm Marco";
+    setTimeout(deleteSmile, speed);
+  }
+  if (i == 17)
+  {
+    mySpan.innerHTML = ", I'm Marco.";
+  }
+  i++;
+}
+
+setTimeout(typewriteMarco, time_before_comma);
