@@ -186,7 +186,7 @@ p:last-child {
   padding: 0.2em 0.45em 0.2em 0.6em;
   margin-right: 0.3em;
   margin-bottom: 0.3em;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .tag.starred {
@@ -202,7 +202,7 @@ p:last-child {
   color: rgb(253, 250, 247);
   text-transform: uppercase;
   letter-spacing: 0.28em;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .tag.starred p {
@@ -269,20 +269,24 @@ p:last-child {
 }
 
 .blog_list_post:hover .overlay {
-  /* background-color: rgb(255, 106, 80); */
+  background-color: rgb(255, 106, 80);
+  transition: all 0s;
 }
 
-/*.blog_list_post:hover p {
+.blog_list_post:hover p {
   color: rgb(253, 250, 247);
+  transition: all 0s;
 }
 
 .blog_list_post:hover .tag {
   background-color: rgb(253, 250, 247);
+  transition: all 0s;
 }
 
 .blog_list_post:hover .tag p {
   color: rgb(255, 106, 80);
-} */
+  transition: all 0s;
+}
 
 /*****************************************/
 
