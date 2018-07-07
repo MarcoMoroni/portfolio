@@ -192,10 +192,6 @@ p:last-child {
   transition: all 0.3s ease;
 }
 
-.tag.starred {
-  /* background-color: #5b76ff; */
-}
-
 .tag:last-child {
   margin-right: 0em;
 }
@@ -206,10 +202,6 @@ p:last-child {
   text-transform: uppercase;
   letter-spacing: 0.28em;
   transition: all 0.3s ease;
-}
-
-.tag.starred p {
-  /* color: white; */
 }
 
 /*****************************************/
@@ -296,7 +288,7 @@ p:last-child {
   transition: all 0s;
 }*/
 
-/* Add fake posts with same widths as real ones to align the last row of the fleaxbox to the left */
+/* Add fake posts with same horizontal widths and margins as real ones to align the last row of the flexbox to the left */
 .fake_post {
   margin-left: 1.8em;
   margin-right: 1.8em;

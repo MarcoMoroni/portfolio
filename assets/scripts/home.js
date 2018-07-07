@@ -4,7 +4,7 @@ var i = 0;
 var mySpan = document.getElementById("marco");
 var txt = ", I'm Marco :)";
 var speed = 170;
-var delete_speed = 100;
+var delete_speed = 70;
 
 var time_before_comma = 1100;
 var time_after_comma = 170;
