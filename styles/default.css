@@ -21,7 +21,7 @@
 
 .container > p > img {
   max-width: 100%;
-  max-height: 55em;
+  max-height: 46em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -109,6 +109,20 @@ a:hover {
 p:last-child {
   margin-bottom: 0;
 }*/
+
+.container.post > .date {
+  display: block;
+  position: absolute;
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(6em) translateX(0.4em);
+
+  font-size: 65%;
+  color: #4c4c4c;
+  text-transform: uppercase;
+  letter-spacing: 0.8em;
+  font-weight: 700;
+  opacity: 0.35;
+}
 
 
 /* SPACERS *******************************/
