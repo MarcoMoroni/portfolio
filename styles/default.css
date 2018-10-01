@@ -1,3 +1,14 @@
+---
+background_color: "rgb(253, 250, 247)"
+accent_color: "rgb(255, 106, 80)"
+text_color: "#4c4c4c"
+h1_color: "#333333"
+h2_color: "#333333"
+h3_color: "#333333"
+abstract_color: "#333333"
+page_margin: "20px"
+---
+
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +26,8 @@
 .container {
   max-width: 46em;
   margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: {{page.page_margin}};
+  padding-right: {{page.page_margin}};
 }
 
 .container > p > img {
@@ -39,11 +50,11 @@
 /* see bottom */
 
 body {
-  background-color: rgb(253, 250, 247);
+  background-color: {{page.background_color}};
 }
 
 h1, h2, h3, p, li {
-  color: #4c4c4c;
+  color: {{page.text_color}};
   font-size: 85%;
 }
 
@@ -51,19 +62,19 @@ h1 {
   text-align: center;
   /* font-weight: 900; */
   font-size: 260%;
-  color: #333333;
+  color: {{page.h1_color}};
 }
 
 h2 {
   text-align: center;
   font-size: 180%;
-  color: #333333;
+  color: {{page.h2_color}};
   margin-bottom: 3em;
 }
 
 h3 {
   font-weight: 900;
-  color: #333333;
+  color: {{page.h3_color}};
   margin-top: 4em;
   margin-bottom: 1.5em;
 }
@@ -79,26 +90,26 @@ ul {
 }
 
 /*a {
-  color: rgb(255, 106, 80);
+  color: {{page.accent_color}};
   border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
 }
 
 a:hover {
-  color: rgb(255, 106, 80);
-  border-color: rgb(255, 106, 80);
+  color: {{page.accent_color}};
+  border-color: {{page.accent_color}};
   transition: all 0s;
 }*/
 
 a {
-  color: #4c4c4c;
-  border-bottom: 1px solid #4c4c4c;
+  color: {{page.text_color}};
+  border-bottom: 1px solid {{page.text_color}};
   transition: all 0.3s ease;
 }
 
 a:hover {
-  color: rgb(255, 106, 80);
-  border-color: rgb(255, 106, 80);
+  color: {{page.accent_color}};
+  border-color: {{page.accent_color}};
   transition: all 0s;
 }
 
@@ -117,7 +128,7 @@ p:last-child {
   transform: rotate(90deg) translateY(6em) translateX(0.4em);
 
   font-size: 65%;
-  color: #4c4c4c;
+  color: {{page.text_color}};
   text-transform: uppercase;
   letter-spacing: 0.8em;
   font-weight: 700;
@@ -149,18 +160,18 @@ p:last-child {
   font-size: 85%;
   white-space:pre;
   border-bottom: 1px solid transparent; /*don't underline*/
-  color: rgb(255, 106, 80);
+  color: {{page.accent_color}};
 }
 
 .button:hover {
   border-bottom: 1px solid transparent; /*don't underline*/
-  background-color: rgb(255, 106, 80);
-  color: rgb(253, 250, 247);
+  background-color: {{page.accent_color}};
+  color: {{page.background_color}};
 }
 
 .button.filled {
-  background-color: rgb(255, 106, 80);;
-  color: rgb(253, 250, 247);
+  background-color: {{page.accent_color}};;
+  color: {{page.background_color}};
 }
 
 .button.filled:hover {
@@ -201,7 +212,7 @@ p:last-child {
 }
 
 .tag {
-  background-color: #4c4c4c;
+  background-color: {{page.text_color}};
   padding: 0.2em 0.45em 0.2em 0.6em;
   margin-right: 0.3em;
   margin-bottom: 0.3em;
@@ -214,7 +225,7 @@ p:last-child {
 
 .tag p {
   font-size: 55%;
-  color: rgb(253, 250, 247);
+  color: {{page.background_color}};
   text-transform: uppercase;
   letter-spacing: 0.28em;
   transition: all 0.3s ease;
@@ -248,7 +259,7 @@ p:last-child {
   /* if there is an image it is set in the html */
   background-size: cover;
   background-position: center;
-  background-color: rgb(253, 250, 247);
+  background-color: {{page.background_color}};
   background-blend-mode: luminosity;
 }
 
@@ -284,23 +295,23 @@ p:last-child {
 }
 
 .blog_list_post:hover .overlay {
-  /* background-color: rgb(255, 106, 80); */
+  /* background-color: {{page.accent_color}}; */
   opacity: 0.95;
   transition: all 0s;
 }
 
 /*.blog_list_post:hover p {
-  color: rgb(253, 250, 247);
+  color: {{page.background_color}};
   transition: all 0s;
 }
 
 .blog_list_post:hover .tag {
-  background-color: rgb(253, 250, 247);
+  background-color: {{page.background_color}};
   transition: all 0s;
 }
 
 .blog_list_post:hover .tag p {
-  color: rgb(255, 106, 80);
+  color: {{page.accent_color}};
   transition: all 0s;
 }*/
 
@@ -335,7 +346,7 @@ p:last-child {
 .abstract p
 {
   font-size: 100%;
-  color: #333333;
+  color: {{page.abstract_color}};
   font-family: 'Cutive Mono', monospace;
   transition: all 0.2s ease;
 }
@@ -358,7 +369,7 @@ p:last-child {
 }
 
 .nav_dots div {
-  background-color: #4c4c4c;
+  background-color: {{page.text_color}};
   opacity: 0.18;
   width: 0.4em;
   height: 0.4em;
@@ -368,6 +379,29 @@ p:last-child {
 
 .nav_dots .current {
   opacity: 1;
+}
+
+/*****************************************/
+
+
+/* TOP HOME BUTTON ***********************/
+
+.top_home_button {
+  display: block;
+  width: 0;
+  height: 0;
+  top: 1em;
+  left: 1em;
+  position: absolute;
+  border-top: 4em solid {{page.text_color}};
+	border-right: 4em solid transparent;
+  border-bottom: 1px solid transparent; /*don't underline*/
+}
+
+.top_home_button:hover {
+  border-top: 4em solid {{page.accent_color}};
+  border-right: 4em solid transparent; /*override a*/
+  border-bottom: 1px solid transparent; /*don't underline*/
 }
 
 /*****************************************/
