@@ -246,7 +246,7 @@ div.highlighter-rouge code {
 
 .tag {
   background-color: #4c4c4c;
-  padding: 0.2em 0.45em 0.2em 0.6em;
+  padding: 0.22em 0.45em 0.24em 0.6em;
   margin-right: 0.3em;
   margin-bottom: 0.3em;
   transition: all 0.3s ease;
@@ -406,7 +406,7 @@ div.highlighter-rouge code {
   position: absolute;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 1em;
+  margin-top: 16px;
 }
 
 .nav_dots div {
@@ -414,8 +414,8 @@ div.highlighter-rouge code {
   opacity: 0.18;
   width: 6px;
   height: 6px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 .nav_dots .current {
@@ -429,20 +429,29 @@ div.highlighter-rouge code {
 
 .top_home_button {
   display: block;
-  width: 0;
-  height: 0;
-  top: 1em;
-  left: 1em;
-  position: absolute;
-  border-top: 3.4em solid #4c4c4c;
-	border-right: 3.4em solid transparent;
+  position: fixed;
+  top: 16px; /* 16 - smt, so that the top pos looks 16px*/
+  left: 16px;
   border-bottom: 1px solid transparent; /*don't underline*/
+  border: 3px solid rgb(255, 106, 80);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 11px;
+  color: rgb(255, 106, 80);
+  transform-origin: bottom left;
+  transform: rotate(90deg) translateX(-50px);
+  padding: 4px 10px 3px 10px;
+}
+
+.top_home_button span {
+  margin-right: -8px; /* remove last letter spacing */
+  font-weight: inherit;
 }
 
 .top_home_button:hover {
-  border-top: 3.4em solid rgb(255, 106, 80);
-  border-right: 3.4em solid transparent; /*override a*/
   border-bottom: 1px solid transparent; /*don't underline*/
+  border: 3px solid rgb(255, 106, 80);
 }
 
 /*****************************************/
@@ -453,12 +462,14 @@ div.highlighter-rouge code {
 .container.post > p:first-child,
 .container.post > h3:first-child,
 .container.post > p:first-child > img:first-child,
-.container.post > div.highlighter-rouge:first-child {
+.container.post > div.highlighter-rouge:first-child,
+.container.post > div:first-child {
   margin-top: 0;
 }
 .container.post > p:last-child,
 .container.post > h3:last-child,
 .container.post > p:last-child > img:last-child,
-.container.post > div.highlighter-rouge:last-child {
+.container.post > div.highlighter-rouge:last-child,
+.container.post > div:last-child {
   margin-bottom: 0;
 }
