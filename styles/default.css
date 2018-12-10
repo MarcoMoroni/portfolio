@@ -263,7 +263,7 @@ div.highlighter-rouge code {
 }
 
 .tag p {
-  font-size: 60%;
+  font-size: 57%;
   color: var(--bg-color);
   text-transform: uppercase;
   letter-spacing: 0.28em;
@@ -384,7 +384,7 @@ div.highlighter-rouge code {
 
 .abstract p,
 .abstract p > span {
-  font-size: 115%;
+  font-size: 110%;
   color: var(--abstract-text-color);
   font-family: courier-prime, monospace;
   font-style: normal;
