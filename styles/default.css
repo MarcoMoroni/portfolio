@@ -1,8 +1,3 @@
-@font-face {
-    font-family: courier-prime;
-    src: url('../assets/courier-prime.regular.ttf') format('truetype');
-}
-
 :root {
   --bg-color: rgb(253, 250, 247);
   --selection-color: rgba(255, 106, 80, 0.2);
@@ -406,9 +401,9 @@ div.highlighter-rouge code {
 
 .abstract p,
 .abstract p > span {
-  font-size: 110%;
+  font-size: 104%;
   color: var(--abstract-text-color);
-  font-family: courier-prime, monospace;
+  font-family: 'Overpass Mono', monospace;
   font-style: normal;
   font-weight: 400;
   transition: all 0.2s ease;
@@ -494,8 +489,8 @@ div.highlighter-rouge code {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: calc(100vw - var(--page-margin) * 2);
-  max-height: calc(100vh - var(--page-margin) * 2);
+  max-width: calc(100% - var(--page-margin) * 2);
+  max-height: calc(100% - var(--page-margin) * 2);
   /* border: 3px solid var(--bg-color); so dots don't touch the picture */
 }
 
